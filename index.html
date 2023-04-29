@@ -1,5 +1,3 @@
-<!-- Name : Rohit Thakur
-Student Id : 8756601 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,21 +5,21 @@ Student Id : 8756601 -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <title>Suhag Salon</title>
-    <link rel="icon" type="image/x-icon" href="pics/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Suhag Salon</title>
 </head>
 
 <body>
     <div>
         <header>
             <div class="nav-bar-top">
-                <img src="pics/logo.png" alt="Logo">
+                <img src="images/logo.png" alt="Logo">
                 <h1 class="align-center width100">Project - Rohit Thakur - @conestogac.on.ca</h1>
             </div>
         </header>
@@ -29,47 +27,164 @@ Student Id : 8756601 -->
         <nav class="nav-bar-main">
             <ul class="navtop-ul navtop-main">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
                 <li class="li-dropdown">
-                    <!-- <a href="order.html">Services</a> -->
-                    <a href="services.html">Services <i class="fa fa-caret-down"></i></a>
-
-
+                    <a href="">Services <i class="fa fa-caret-down"></i></a>
                     <div class="dropdown-content">
                         <ul>
-                            <li><a href="">Hair Styling</li></a>
-                            <li><a href="">Make-up</li></a>
-                            <li><a href="">Laser Hair Removal</li></a>
-                            <li><a href="">Skin Treatment</li></a>
+                            <li><a href="hairstyling.html">Hair Styling</a></li>
+                            <li><a href="makeup.html">Make-up</a></li>
+                            <li><a href="skincare.html">Skin Care</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-        <main></main>
-        <footer>
-            <nav class="nav-footer">
-                <ul class="navtop-ul navtop-main">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li class="li-dropdown">
-                        <!-- <a href="order.html">Services</a> -->
-                        <a href="order.html">Services <i class="fa fa-caret-down"></i></a>
+        <main>
+            <div class="hero-image">
+                <!-- Image Source : Mykytas (2020) -->
+                <img src="images/hero-image.jpg" alt="Hero image">
+            </div>
+            <div class="subheading">
+                <h2>Our Motto</h2>
+                <div class="divider-h-lg"></div>
+                <p>Treat yourself to one of our signature services. Our beloved beauty experts will wow your brows, get
+                    you glowing and so much more. You’ll leave looking and feeling better than ever before.
 
 
-                        <div class="dropdown-content">
+                </p>
+            </div>
+            <div class="grid-salon">
+                <div class="salon-cell1">
+                    <div class="subheading">
+                        <h3 class="hr-lines">Our Salon</h3>
+                        <p class="p-dark">Suhag offers beauty services in GTA area for people who are looking
+                            for quality and affordable beauty care.</p>
+                        <p>Our Beauty Salon puts our customers' on a pedestal and leaves them satisfied with our
+                            services.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="salon-cell2">
+                    <!-- Image Source : (Delbeautybox, 2018) -->
+                    <img src="images/salon2.jpg" alt="Salon image1">
+                </div>
+                <div class="salon-cell3">
+                    <!-- Image Source : (Delbeautybox 2017) -->
+                    <img src="images/salon1.jpg" alt="Salon image2">
+                </div>
+                <div class="salon-cell4">
+                    <div class="subheading">
+                        <h3 class="hr-lines">Our Responsibility</h3>
+                        <p class="p-dark">Our team is responsibile and committed to provide quality service and build
+                            lasting relationships
+                            with customers.</p>
+                        <p> Visit us now to get pampered and relax at Suhag Beauty Salon and Spa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="showcase-services">
+                <div class="subheading">
+                    <h2>Our Services</h2>
+                    <div class="divider-h-lg"></div>
+                    <p> Our experienced staff will help you find the
+                        perfect hairstyle, whether it's a chic bob or luscious curls. Our facials and body treatments
+                        are
+                        tailored to your skin type and will leave you feeling refreshed and rejuvenated. We also offer
+                        nail
+                        services, including manicures and pedicures, to keep your hands and feet looking their best. At
+                        our
+                        salon, we believe that every woman deserves to feel beautiful and confident. Let us help you
+                        achieve
+                        that with our top-notch services and relaxing atmosphere.</p>
+                </div>
+                <ul class="cards-container">
+                    <li class="card-service">
+                        <!--  Image Source :  (Shvets, 2020) -->
+                        <img src="images/service1.jpg" alt="">
+                        <div>
+                            <h4>Skin Care</h4>
                             <ul>
-                                <li><a href="">Hair Styling</li></a>
-                                <li><a href="">Make-up</li></a>
-                                <li><a href="">Laser Hair Removal</li></a>
-                                <li><a href="">Skin Treatment</li></a>
+                                <li>Facial</li>
+                                <li>Body Scrub</li>
+                                <li>Body Spa</li>
                             </ul>
+                            <div>
+                                <a id="button1" onclick="location.href = 'skincare.html';">Read More..</a>
+                            </div>
                         </div>
                     </li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="card-service">
+                        <!--  Image Source : (Geib, 2019) -->
+                        <img src="images/service2.jpg" alt="">
+                        <div>
+                            <h4>Hair Cutting & Styling</h4>
+                            <ul>
+                                <li>Haircuts</li>
+                                <li> Hair coloring</li>
+                                <li> Hair styling </li>
+                            </ul>
+                            <div>
+                                <a id="button2" onclick="location.href = 'hairstyling.html';">Read More..</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-service">
+                        <!--  Image Source : (Guerra, 2018)  -->
+                        <img src="images/service3.jpg" alt="">
+                        <div>
+                            <h4>Make-up</h4>
+                            <ul>
+                                <li>Bridal </li>
+                                <li>Special Event </li>
+                                <li>Highlighting </li>
+                            </ul>
+                            <div>
+                                <a id="button2" onclick="location.href = 'makeup.html';">Read More..</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-            </nav>
+            </div>
+        </main>
+        <footer>
+            <div class="nav-footer">
+                <ul>
+                    <div class="footer-column"><a>
+                            <h3>Skin Care</h3>
+                        </a>
+                        <div class="footer-rows quicklinks">
+                            <div><a href="skincare.html#skin1">Facial</a></div>
+                            <div><a href="skincare.html#skin2">Body Scrub</a></div>
+                            <div><a href="skincare.html#skin3">Body Spa</a></div>
+                        </div>
+                    </div>
+                    <div class="footer-column"><a>
+                            <h3>Hair Styling</h3>
+                        </a>
+                        <div class="footer-rows">
+                            <div><a href="hairstyling.html#hair1"> Haircuts </a></div>
+                            <div><a href="hairstyling.html#hair2"> Hair coloring</a></div>
+                            <div><a href="hairstyling.html#hair3"> Hair styling </a></div>
+
+                        </div>
+                    </div>
+                    <div class="footer-column"><a>
+                            <h3>Make-up</h3>
+                        </a>
+                        <div class="footer-rows">
+                            <div><a href="makeup.html#makeup1">Bridal </a></div>
+                            <div><a href="makeup.html#makeup2">Special Event</a></div>
+                            <div><a href="makeup.html#makeup3">Highlighting </a></div>
+                        </div>
+                    </div>
+                </ul>
+
+            </div>
+
             <div class="copyright">
                 &copy; Copyright - Rohit Thakur - rthakur6601@conestogac.on.ca </div>
         </footer>
