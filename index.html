@@ -1,3 +1,5 @@
+<!-- Name : Rohit Thakur
+Student Id : 8756601 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,22 +7,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Suhag Salon</title>
+    <link rel="icon" type="image/x-icon" href="pics/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div>
         <header>
             <div class="nav-bar-top">
-                <img src="images/logo.png" alt="Logo">
-                <h1 class="align-center width100">Project - Rohit Thakur - @conestogac.on.ca</h1>
+                <img src="pics/logo.png" alt="Logo">
+                <h1 class="mainh1">Suhag Beauty Salon</h1>
             </div>
         </header>
 
@@ -28,7 +30,10 @@
             <ul class="navtop-ul navtop-main">
                 <li><a href="index.html">Home</a></li>
                 <li class="li-dropdown">
-                    <a href="">Services <i class="fa fa-caret-down"></i></a>
+                    <!-- <a href="order.html">Services</a> -->
+                    <a href="#">Services <i class="fa fa-caret-down"></i></a>
+
+
                     <div class="dropdown-content">
                         <ul>
                             <li><a href="hairstyling.html">Hair Styling</a></li>
@@ -42,17 +47,13 @@
         </nav>
         <main>
             <div class="hero-image">
-                <!-- Image Source : Mykytas (2020) -->
-                <img src="images/hero-image.jpg" alt="Hero image">
+                <img src="pics/hero-image.png" alt="Hero image">
             </div>
             <div class="subheading">
-                <h2>Our Motto</h2>
+                <h2>Our Services</h2>
                 <div class="divider-h-lg"></div>
                 <p>Treat yourself to one of our signature services. Our beloved beauty experts will wow your brows, get
-                    you glowing and so much more. You’ll leave looking and feeling better than ever before.
-
-
-                </p>
+                    you glowing and so much more. You’ll leave looking and feeling better than ever before.</p>
             </div>
             <div class="grid-salon">
                 <div class="salon-cell1">
@@ -66,14 +67,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="salon-cell2">
-                    <!-- Image Source : (Delbeautybox, 2018) -->
-                    <img src="images/salon2.jpg" alt="Salon image1">
-                </div>
-                <div class="salon-cell3">
-                    <!-- Image Source : (Delbeautybox 2017) -->
-                    <img src="images/salon1.jpg" alt="Salon image2">
-                </div>
+                <div class="salon-cell2"> <img src="pics/Suhag/salon2.jpg" alt="Salon image1"></div>
+                <div class="salon-cell3"> <img src="pics/Suhag/salon1.jpg" alt="Salon image2"></div>
                 <div class="salon-cell4">
                     <div class="subheading">
                         <h3 class="hr-lines">Our Responsibility</h3>
@@ -85,65 +80,41 @@
                     </div>
                 </div>
             </div>
-
             <div class="showcase-services">
                 <div class="subheading">
                     <h2>Our Services</h2>
                     <div class="divider-h-lg"></div>
-                    <p> Our experienced staff will help you find the
-                        perfect hairstyle, whether it's a chic bob or luscious curls. Our facials and body treatments
-                        are
-                        tailored to your skin type and will leave you feeling refreshed and rejuvenated. We also offer
-                        nail
-                        services, including manicures and pedicures, to keep your hands and feet looking their best. At
-                        our
-                        salon, we believe that every woman deserves to feel beautiful and confident. Let us help you
-                        achieve
-                        that with our top-notch services and relaxing atmosphere.</p>
+                    <p>Treat yourself to one of our signature services. Our beloved beauty experts will wow your brows,
+                        get
+                        you glowing and so much more. You’ll leave looking and feeling better than ever before.</p>
                 </div>
                 <ul class="cards-container">
                     <li class="card-service">
-                        <!--  Image Source :  (Shvets, 2020) -->
-                        <img src="images/service1.jpg" alt="">
+                        <img src="pics/service1.jpg" alt="">
                         <div>
                             <h4>Skin Care</h4>
-                            <ul>
-                                <li>Facial</li>
-                                <li>Body Scrub</li>
-                                <li>Body Spa</li>
-                            </ul>
-                            <div>
-                                <a id="button1" onclick="location.href = 'skincare.html';">Read More..</a>
+                            <p>Get a new look to your hair with our professional haircut & hairstyling services.</p>
+                            <div><button id="button1" onclick="readmoreService(this.id)">Read More..</button>
                             </div>
                         </div>
                     </li>
                     <li class="card-service">
-                        <!--  Image Source : (Geib, 2019) -->
-                        <img src="images/service2.jpg" alt="">
+                        <img src="pics/service2.jpg" alt="">
                         <div>
                             <h4>Hair Cutting & Styling</h4>
-                            <ul>
-                                <li>Haircuts</li>
-                                <li> Hair coloring</li>
-                                <li> Hair styling </li>
-                            </ul>
+                            <p>Get a new look to your hair with our professional haircut & hairstyling services.</p>
                             <div>
-                                <a id="button2" onclick="location.href = 'hairstyling.html';">Read More..</a>
+                                <button id="button2" onclick="readmoreService(this.id)">Read More..</button>
                             </div>
                         </div>
                     </li>
                     <li class="card-service">
-                        <!--  Image Source : (Guerra, 2018)  -->
-                        <img src="images/service3.jpg" alt="">
+                        <img src="pics/service3.jpg" alt="">
                         <div>
                             <h4>Make-up</h4>
-                            <ul>
-                                <li>Bridal </li>
-                                <li>Special Event </li>
-                                <li>Highlighting </li>
-                            </ul>
+                            <p>Get a new look to your hair with our professional haircut & hairstyling services.</p>
                             <div>
-                                <a id="button2" onclick="location.href = 'makeup.html';">Read More..</a>
+                                <button id="button2" onclick="readmoreService(this.id)">Read More..</button>
                             </div>
                         </div>
                     </li>
@@ -186,8 +157,33 @@
             </div>
 
             <div class="copyright">
-                &copy; Copyright - Rohit Thakur - rthakur6601@conestogac.on.ca </div>
+                &copy; Copyright - Rohit Thakur </div>
         </footer>
+        <!-- <footer>
+            <nav class="nav-footer">
+                <ul class="navtop-ul navtop-main">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="li-dropdown">
+                       
+                        <a href="order.html">Services <i class="fa fa-caret-down"></i></a>
+
+
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="">Hair Styling</li></a>
+                                <li><a href="">Make-up</li></a>
+                                <li><a href="">Laser Hair Removal</li></a>
+                                <li><a href="">Skin Treatment</li></a>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                &copy; Copyright - Rohit Thakur </div>
+        </footer> -->
     </div>
 </body>
 
